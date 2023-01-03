@@ -1,21 +1,38 @@
 # ls
 
-## sd
+## Description
+ls
 
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributions](#contributing)
-- [Testing](#testing)
+- [Features](#features)
 - [License](#license)
-- [Questions](#contact)
+- [Credits](#credits)
+- [Tests](#tests)
+- [Questions](#questions)
 
+## Installation
+ls
 
-## df
+## Usage
+ks
 
-## MIT
+## Badges
+MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## sd
+## License
+MIT License
 
-## ddd
+## Features
+ss
+
+## Credits
+ss
+
+## Tests
+ss
+
+## Questions
+ss

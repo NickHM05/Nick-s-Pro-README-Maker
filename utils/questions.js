@@ -18,12 +18,12 @@ const questions = [{
 {
     type: 'input',
     message: 'What are the steps required to install this project? Provide a step by step guide.',
-    name: 'Installation',
+    name: 'installation',
 },
 {
     type: 'input',
     message: 'What is your project description of the usage section?',
-    name: 'Usage',
+    name: 'usage',
 },
 {
     type: 'list',
@@ -41,7 +41,7 @@ const questions = [{
 {
     type: 'list',
     message: 'Select an Option',
-    name: 'License',
+    name: 'license',
     choices: [
         new inquirer.Separator(),
         'MIT License',
@@ -54,22 +54,22 @@ const questions = [{
 {
     type: 'input',
     message: 'If your project has a lot of features, list them here.',
-    name: 'Features',
+    name: 'features',
 },
 {
     type: 'input',
     message: 'Who contributed to your work?',
-    name: 'Contributing',
+    name: 'credits',
 },
 {
     type: 'input',
     message: 'Please enter your data for tests.',
-    name: 'Tests',
+    name: 'tests',
 },
 {
     type: 'input',
     message:"Please send any questions you have to the author's email.",
-    name: 'Questions',
+    name: 'questions1',
 },]
 module.exports = questions;
 
