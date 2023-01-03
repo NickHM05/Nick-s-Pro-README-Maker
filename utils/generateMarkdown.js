@@ -1,3 +1,4 @@
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {}
@@ -16,8 +17,42 @@ function generateMarkdown(data) {
   console.log(data)
   return `# ${data.title}
 
-## ${data.description}
-`;
-}
+## Description
+${data.description}
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Features](#Features)
+- [License](#badgeOptions)
+- [Credits](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
+
+## Installation
+${data.Installation}
+
+## Usage
+${data.Usage}
+
+## Badges
+${data.badgeOptions}
+
+## License
+${data.License}
+
+## Features
+${data.Features}
+
+## Credits
+${data.Contributing}
+
+## Testing
+${data.Tests}
+
+## Questions
+${data.Questions}
+`;}
 
 module.exports = generateMarkdown;

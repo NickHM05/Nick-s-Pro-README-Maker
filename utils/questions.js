@@ -16,17 +16,60 @@ const questions = [{
     name: 'description',
 },
 {
+    type: 'input',
+    message: 'What are the steps required to install this project? Provide a step by step guide.',
+    name: 'Installation',
+},
+{
+    type: 'input',
+    message: 'What is your project description of the usage section?',
+    name: 'Usage',
+},
+{
     type: 'list',
     message: 'Select an Option',
     name: 'badgeOptions',
     choices: [
         new inquirer.Separator(),
-        'MIT', 
+        'MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)', 
         new inquirer.Separator(),
-        'Apache', 
+        'Apache [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)', 
+        new inquirer.Separator(),
+        'Boost [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)',
+    ]
+},
+{
+    type: 'list',
+    message: 'Select an Option',
+    name: 'License',
+    choices: [
+        new inquirer.Separator(),
+        'MIT License',
+        new inquirer.Separator(),
+        'Apache',
         new inquirer.Separator(),
         'Boost',
     ]
-}]
+},
+{
+    type: 'input',
+    message: 'If your project has a lot of features, list them here.',
+    name: 'Features',
+},
+{
+    type: 'input',
+    message: 'Who contributed to your work?',
+    name: 'Contributing',
+},
+{
+    type: 'input',
+    message: 'Please enter your data for tests.',
+    name: 'Tests',
+},
+{
+    type: 'input',
+    message:"Please send any questions you have to the author's email.",
+    name: 'Questions',
+},]
+module.exports = questions;
 
-module.exports = questions
