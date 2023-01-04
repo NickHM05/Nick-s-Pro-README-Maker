@@ -27,7 +27,9 @@ MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https
 The auto generation of the readme filebased on the user inputs.
 
 ## Credits
-Nicholas Mamberger (author) https://github.com/NickHM05 -Alexis Gonzalez (tutor) no github i know of.
+Nicholas Mamberger (author) https://github.com/NickHM05 
+-Alexis Gonzalez (tutor) no github i know of.
+Here is the github repo: https://github.com/NickHM05/Nick-s-Pro-README-Maker
 
 ## Tests
 No tests have been created for the application. But here is this section anyway to show there is functionality built in case of the need. 
