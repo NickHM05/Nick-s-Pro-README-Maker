@@ -17,7 +17,7 @@ ls
 ls
 
 ## Usage
-ks
+ls
 
 ## Badges
 MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -26,13 +26,15 @@ MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https
 MIT License
 
 ## Features
-ss
+ls
 
 ## Credits
-ss
+ls
 
 ## Tests
-ss
+ls
 
 ## Questions
-ss
+[Link to my Github Profile](https://github.com/ls
+For any additional questions, you can email me at:
+ls

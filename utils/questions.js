@@ -68,8 +68,13 @@ const questions = [{
 },
 {
     type: 'input',
-    message:"Please send any questions you have to the author's email.",
-    name: 'questions1',
+    message:"What is your Github username?",
+    name: 'username',
+},
+{
+    type: 'input',
+    message:"What is your email?",
+    name: 'email',
 },]
 module.exports = questions;
 
