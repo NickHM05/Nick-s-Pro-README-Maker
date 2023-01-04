@@ -1,22 +1,22 @@
 
-const licensesForUse = require('./licensesForUse.js')
+const licensesHere = require('./licensesHere.js')
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  if (license == "None") {
-    return ``;
-  }
-  let result = licensesForUse.filter(licenseUsed => licenseUsed.name == license);
-  return result[0].badgeOptions
-}
-
+// function renderLicenseBadge(license) {
+//   if (license == "None") {
+//     return ``;
+//   }
+//   let result = licensesHere.filter(licenseUsed => licenseUsed.name == license);
+//   return result[0].badgeOptions
+// }
+// ${renderLicenseBadge(data.license)}
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license == 'None') {
     return ``;
   }
-  let result = licensesForUse.filter(licenseUsed => licenseUsed.name == license);;
+  let result = licensesHere.filter(licenseUsed => licenseUsed.name == license);;
   return result[0].link;
 }
 
@@ -30,27 +30,29 @@ function renderLicenseSection(license) {
   This application is licensed under [${license}](${renderLicenseLink(license)}) license. Click the link for license rights and limitations.`;
 }
 // TODO: Create a function to generate markdown for README
-// function makeAtable(data) {
-//   if (!data.confirmTable) {
-//     return;
-//   }
-//   if (data.license == 'None') {
-//     return `## Table of Contents
-//   - [Installation](#installation)
-//   - [Usage](#usage)
-//   - [Credits](#contribute)
-//   - [Tests](#tests)
-//   - [Questions](#questions)`;
-//   }
+function makeAtable(data) {
+  if (!data.confirmTable) {
+    return;
+  }
+  if (data.license == 'None') {
+    return `## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Features](#features)
+  - [Credits](#credits)
+  - [Tests](#tests)
+  - [Questions](#questions)`;
+  }
 
-//   return `## Table of Contents
-//   - [Installation](#installation)
-//   - [Usage](#usage)
-//   - [License](#license)
-//   - [Credits](#contribute)
-//   - [Tests](#tests)
-//   - [Questions](#questions)`;
-// }
+  return `## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Features](#features)
+  - [Credits](#credits)
+  - [Tests](#tests)
+  - [Questions](#questions)`;
+}
 
 function generateMarkdown(data) {
   // console.log("Inside generatedMarkdown")
@@ -59,6 +61,7 @@ function generateMarkdown(data) {
 
 ## Description
 ${data.description}
+${makeAtable(data)}
 
 ## Installation
 ${data.installation}
@@ -66,7 +69,6 @@ ${data.installation}
 ## Usage
 ${data.usage}
 ${renderLicenseSection(data.license)}
-
 ## Badges
 ${data.badgeOptions}
 
