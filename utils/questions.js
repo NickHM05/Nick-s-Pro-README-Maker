@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+
 /*THEN a high-quality, professional README.md is generated with the title of my project and sections entitled 
 Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 WHEN I enter my GitHub username
@@ -44,7 +45,7 @@ const questions = [{
     name: 'license',
     choices: [
         new inquirer.Separator(),
-        'MIT License',
+        'MIT',
         new inquirer.Separator(),
         'Apache',
         new inquirer.Separator(),
