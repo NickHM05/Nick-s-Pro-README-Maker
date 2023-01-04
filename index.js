@@ -9,6 +9,8 @@ WHEN I enter my GitHub username
 THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
 WHEN I enter my email address
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions*/
+
+//Here are the questions developed for node to prompt the user
 const questions = [{
     type: 'input',
     message: 'What is your project name?',

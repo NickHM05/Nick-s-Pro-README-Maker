@@ -1,5 +1,6 @@
-
+//This js file generates the markdown md file for the readme 
 const licensesHere = require('./licensesHere.js')
+//Was a built in function but is no longer needed. The work here is being saved for future developments. 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 // function renderLicenseBadge(license) {
@@ -10,6 +11,7 @@ const licensesHere = require('./licensesHere.js')
 //   return result[0].badgeOptions
 // }
 // ${renderLicenseBadge(data.license)}
+
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
@@ -55,8 +57,6 @@ function makeAtable(data) {
 }
 
 function generateMarkdown(data) {
-  // console.log("Inside generatedMarkdown")
-  // console.log(data)
   return `# ${data.title}
 
 ## Description

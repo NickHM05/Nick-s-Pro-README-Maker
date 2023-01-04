@@ -1,3 +1,4 @@
+//The licenses for use. Note there can be licenses added here for future use. 
 const licensesHere = [
     {
         'name': 'Apache license 2.0',
