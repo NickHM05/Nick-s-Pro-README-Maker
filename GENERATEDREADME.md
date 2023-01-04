@@ -1,7 +1,7 @@
-# placeholder
+# Placeholder Title
 
 ## Description
-placeholder
+Placeholder Description info
 ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -12,27 +12,27 @@ placeholder
   - [Questions](#questions)
 
 ## Installation
-placeholder
+Installation steps example
 
 ## Usage
-placeholder
+Usage section example
 ## License 
   This application is licensed under [MIT](https://opensource.org/licenses/MIT) license. Click the link for license rights and limitations.
 ## Badges
 MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
-placeholder
+The features are listed here as an example
 
 ## Credits
-placeholder
+Nicholas Mamberger (author)
 
 ## Tests
-placeholder
+data testing examples
 
 ## Questions
-[Link to my Github Profile](https://github.com/placeholder
+[Link to my Github Profile](https://github.com/NickHM05
 
 For any additional questions, you can email me at:
 
-placeholder
+nhmamberger@gmail.com
