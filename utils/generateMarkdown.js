@@ -1,12 +1,4 @@
-// ## Table of Contents
-// - [Description](#description)
-// - [Installation](#installation)
-// - [Usage](#usage)
-// - [Features](#features)
-// - [License](#license)
-// - [Credits](#credits)
-// - [Tests](#tests)
-// - [Questions](#questions)
+
 const licensesForUse = require('./licensesForUse.js')
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string

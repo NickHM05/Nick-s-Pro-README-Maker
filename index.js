@@ -19,7 +19,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(userInput =>{
         console.log(userInput)
-        writeToFile("./GeneratedREADME/test.md", generateMarkdown(userInput) )
+        writeToFile("GENERATEDREADME.md", generateMarkdown(userInput) )
 
     })
 }
